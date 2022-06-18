@@ -1,6 +1,11 @@
 package com.Nishkar.springbootbackend.G4L_Reverside.model.entity;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -18,6 +23,7 @@ import java.io.Serializable;
 public class UserAddress implements Serializable {
     public static final String ENTITY_NAME = "UserAddress";
     public static final String TABLE_NAME = "user_address";
+
     public static final String COLUMN_ID_NAME = "iduser_address";
     public static final String COLUMN_ADDRESSLINE1_NAME = "address_line_1";
     public static final String COLUMN_ADDRESSLINE2_NAME = "address_line_2";
@@ -25,6 +31,7 @@ public class UserAddress implements Serializable {
     public static final String COLUMN_CITY_NAME = "city";
     public static final String COLUMN_POSTALCODE_NAME = "postal_code";
     public static final String COLUMN_COUNTRY_NAME = "country";
+
     private static final long serialVersionUID = 5844776974455263634L;
 
 

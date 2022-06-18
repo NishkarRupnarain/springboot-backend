@@ -1,6 +1,11 @@
 package com.Nishkar.springbootbackend.G4L_Reverside.model.entity;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -25,7 +30,7 @@ public class Product implements Serializable {
     public static final String TABLE_NAME = "product";
     public static final String COLUMN_ID_NAME = "idproduct";
     public static final String COLUMN_NAME_NAME = "name";
-    public static final String COLUMN_DESC_NAME = "`desc`";
+    public static final String COLUMN_DESC_NAME = "desc";
     public static final String COLUMN_SKU_NAME = "SKU";
     public static final String COLUMN_CATERGORY_NAME = "catergory";
     public static final String COLUMN_PRICE_NAME = "price";
